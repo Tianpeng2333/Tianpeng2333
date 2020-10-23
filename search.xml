@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>友链</title>
+      <link href="9999/12/31/%E5%8F%8B%E9%93%BE/"/>
+      <url>9999/12/31/%E5%8F%8B%E9%93%BE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="友链"><a href="#友链" class="headerlink" title="友链"></a>友链</h1><h2 id="我自己"><a href="#我自己" class="headerlink" title="我自己"></a>我自己</h2><ul class="flinks"><li>鹏's blog</li><li>https://tianpeng2333.github.io/</li><li>/img/avatar.jpg</li><li>tianpeng2333.github.io</li><li>开始了吗？开始了~</li></ul><h2 id="真-·-友链"><a href="#真-·-友链" class="headerlink" title="真 · 友链"></a>真 · 友链</h2><ul class="flinks"><li>Piggy's Blog</li><li>https://blog.piggy.moe/</li><li>/img/friends/piggy/avatar.jpg</li><li>blog.piggy.moe</li><li>Piggy!</li><li>Pwdding's Dinning Hall</li><li>https://putinspudding.github.io/</li><li>/img/friends/pwdding/avatar.jpg</li><li>putinspudding.github.io</li><li>Pwdding(?)</li><li>@a-fruity-melon</li><li>https://github.com/a-fruity-melon</li><li>/img/friends/a-fruity-melon/avatar.jpg</li><li>github.com/a-fruity-melon</li><li>@shell32.dll,-8508</li><li>信风吹絮的博客</li><li>https://yxzhjzhhh.github.io/</li><li>/img/friends/信风吹絮/avatar.jpg</li><li>yxzhjzhhh.github.io</li><li>一个整日摸鱼蒟蒻的博客</li><li>@MetLee</li><li>https://github.com/MetLee</li><li>/img/friends/metlee/avatar.jpg</li><li>github.com/MetLee</li><li>条条大路通CS</li><li>洛灵酱的小窝</li><li>https://blog.luoling8192.top/</li><li>/img/friends/luoling/avatar.jpg</li><li>blog.luoling8192.top</li><li>想要变可爱</li><li>xlj2596 的博客</li><li>https://www.luogu.com.cn/blog/xlj/</li><li>/img/friends/xlj/avatar.jpg</li><li>luogu.com.cn/blog/xlj</li><li>宇宙无敌大帅比xlj</li></ul><h2 id="如何加入"><a href="#如何加入" class="headerlink" title="如何加入"></a>如何加入</h2><p>如果您想加上鹏的友链的话<del>（我觉得没多少人会加）</del>请在这个文章下面的评论区里面写下以下内容：</p><ul><li>网站名称</li><li>网站地址(link)</li><li>网站描述(尽量简短一点？box的容纳长度有限qwq)</li><li>网站图标(link)</li></ul><p>这边康到（时间不定）而且感觉可以的话会在这边加上友链并回复的~</p><p>不过在来加友链之前请给鹏也加上友链哦~</p><ul><li>网站名称：鹏’s Blog</li><li>网站地址：<a href="https://tianpeng2333.github.io/">https://tianpeng2333.github.io/</a></li><li>网站描述：开始了吗？开始了~</li><li>网站图标：<a href="https://tianpeng2333.github.io/img/avatar.jpg">https://tianpeng2333.github.io/img/avatar.jpg</a></li></ul><script>    document.querySelectorAll('ul.flinks').forEach(        function (e)         {             let a = e;             if (a)             {                 let ns = a.querySelectorAll("li");                 let str = '<div style="display:inline-block;">';                 let bgid = 0;                 const bgs = ["bg-argon", "bg-blue", "bg-purple", "bg-green", "bg-yellow", "bg-red", "bg-orange"];                 for (let i = 0; i < ns.length; i += 5)                 {                      str += (`<div class="flink-item">                            <div class="flink-title">                                <a href="${ns[i + 1].innerText}"target="_blank"rel="external nofollow ugc" color:"#f1f1f1">${ns[i].innerText}</a>                            </div>                            <div class="flink-link" id="flink-link">                                <div class="flink-link-ico"style="background: url(${ns[i + 2].innerText});background-size: 42px auto;"></div>                                <div class="flink-link-text" style="width:150px">${ns[i + 3].innerText}</div>                            </div>                            <div class="flink-detail">                                <div class="flink-detail-text" style="width:150px">${ns[i + 4].innerText}</div>                            </div>                            </div>`)                 }                 str += `</div>`;                 let n1 = document.createElement("div");                 n1.innerHTML = str;                 a.parentNode.insertBefore(n1, a);                 a.style = "display: none;"             }             else { console.log('No such id "flinks"') } });</script><style>    .flink-item {        width: 300px;        height: 150px;        position: relative;        box-shadow: 0 .150rem .80rem rgba(0,0,0,.075);        margin: 10px;        border-radius: 3px;        float: left    }    .flink-title {        left: 25px;        top: 25px;        position: absolute    }    .flink-title a{        font-size: 17px;        line-height: 17px;        word-break: break-all;        text-decoration: none;        outline: 0    }    .flink-link {        right: 0;        bottom: 0;        padding: 0 15px 15px;        position: absolute;        text-align: center    }    .flink-link-text {        font-size: 10px;        line-height: 15px;        word-wrap:break-word;          word-break:break-all;        overflow: hidden    }    .flink-link-ico {        display: inline-block;        width: 42px;        height: 42px;        border-radius: 50%    }    .flink-detail    {        left: 25px;        top: 65px;        position: absolute    }    .flink-detail-text {        font-size: 10px;        line-height: 15px;        word-wrap:break-word;          word-break:break-all;        overflow: hidden    }    .bg-argon{        background-color: #5e72e4 !important    }    .bg-blue {        background-color: #6fa3ef !important    }    .bg-purple {        background-color: #bc99c4 !important    }    .bg-green {        background-color: #46c47c !important    }    .bg-yellow {        background-color: #f9bb3c !important    }    .bg-red {        background-color: #e8583d !important    }    .bg-orange {        background-color: #f68e5f !important    }</style>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>你好</title>
+      <link href="2020/10/23/%E4%BD%A0%E5%A5%BD/"/>
+      <url>2020/10/23/%E4%BD%A0%E5%A5%BD/</url>
+      
+        <content type="html"><![CDATA[<p>好的由于某些申必原因，天鹏的 blog 源文件貌似全没了，抢修了一下ww</p><hr><p>是的，天鹏有自己的 blog 啦~</p><p>这个 blog 基于 Hexo &amp; Github pages，主题是 @solstice23 的 Argon </p><p>后面会把在其他地方发的一些文章陆陆续续传上这里的~</p><p>欢迎来换友链啊233</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
