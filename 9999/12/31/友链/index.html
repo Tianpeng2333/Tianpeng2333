@@ -918,7 +918,7 @@ https://tianpeng2333.github.io/
 		repo: 'Tianpeng2333.github.io',
 		owner: 'Tianpeng2333',
 		admin: ['Tianpeng2333'],
-		id: location.pathname,
+		id: decodeURI(location.pathname),
 		distractionFreeMode: false
 	})
 	gitalk.render('gitalk-container');
